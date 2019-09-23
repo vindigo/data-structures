@@ -9,7 +9,7 @@ class Queue {
   }
 
   dequeue() {
-    if(this.isEmpty()) {
+    if (this.isEmpty()) {
       return "Underflow";
     }
 
@@ -17,7 +17,7 @@ class Queue {
   }
 
   front() {
-    if(this.isEmpty()) {
+    if (this.isEmpty()) {
       return "No elements in Queue";
     }
 
